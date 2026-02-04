@@ -1,9 +1,4 @@
-$primary-text: #060b35;
-$secondary-text: #616070;
-$white: #fff;
-$accent-color: #00acdc;
-$black: #000;
-$card-border: #f3f3f3;
+@import 'variables';
 
 *,
 *::before,
@@ -14,7 +9,7 @@ $card-border: #f3f3f3;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: $font;
 }
 
 .card {
