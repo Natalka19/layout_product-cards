@@ -19,17 +19,17 @@ body {
 
 .card {
   width: 200px;
-
   padding: 16px;
   border: 1px solid $card-border;
-  background-color: $white;
   border-radius: 4px;
+
+  background-color: $white;
 
   &__image {
     overflow: hidden;
-    width: 160px;
-
     display: block;
+
+    width: 160px;
     height: 134px;
     margin: 16px auto 0;
   }
